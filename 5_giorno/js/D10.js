@@ -343,9 +343,8 @@ const GamePG = {
   età: 23,
   città: 'Hyrule'
 };
-console.log("11) oggetto intero:  " + JSON.stringify(GamePG));
 deleteProp(GamePG, 'età');
-console.log("11) oggetto monco: " + JSON.stringify(GamePG));
+
 
 /* ESERCIZIO 12
   Scrivi una funzione chiamata "newestMovie" che trova il film più recente nell'array "movies" fornito.
